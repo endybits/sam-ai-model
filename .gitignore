@@ -1,0 +1,7 @@
+py39/
+venv_py310/
+.vscode/
+__pycache__/
+
+test.py
+sam_vit_h_4b8939.pth
