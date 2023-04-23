@@ -1,1 +1,1 @@
-# san-ai-model
+# sam-ai-model
