@@ -13,7 +13,7 @@ print(f"PID {os.getpid()}")
 checkpoint = "sam_vit_h_4b8939.pth"
 model_type = "vit_h"
 
-bgr_img = cv.imread("image.jpg")
+bgr_img = cv.imread("Louvre.jpg")
 rgb_img = bgr_img[:,:,::-1]
 
 print('Before sam registry model')
@@ -32,4 +32,5 @@ print(masks)
 
 plt.imshow(rgb_img)
 show_marks(masks)
+plt.axis('off')
 plt.show()
